@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Python 3.6.3 on win32)" generated="20171219 23:57:54.597">
+<suite id="s1" name="siye rf customLibrary" source="D:\Lemon-workspace\siye_rf_customLibrary">
+<suite id="s1-s1" name="测试自定义库" source="D:\Lemon-workspace\siye_rf_customLibrary\测试自定义库.robot">
+<test id="s1-s1-t1" name="测试使用自定义库">
+<kw name="Write Excel" library="DoExcel">
+<arguments>
+<arg>1</arg>
+<arg>1</arg>
+<arg>'小简老师棒棒哒！'</arg>
+</arguments>
+<status status="PASS" starttime="20171219 23:57:54.700" endtime="20171219 23:58:00.573"></status>
+</kw>
+<status status="PASS" starttime="20171219 23:57:54.699" endtime="20171219 23:58:00.573" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20171219 23:57:54.650" endtime="20171219 23:58:00.574"></status>
+</suite>
+<status status="PASS" starttime="20171219 23:57:54.623" endtime="20171219 23:58:00.575"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="siye rf customLibrary">siye rf customLibrary</stat>
+<stat pass="1" fail="0" id="s1-s1" name="测试自定义库">siye rf customLibrary.测试自定义库</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
